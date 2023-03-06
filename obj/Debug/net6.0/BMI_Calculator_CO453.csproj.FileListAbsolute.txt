@@ -1,0 +1,15 @@
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/bin/Debug/net6.0/BMI_Calculator_CO453
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/bin/Debug/net6.0/BMI_Calculator_CO453.deps.json
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/bin/Debug/net6.0/BMI_Calculator_CO453.runtimeconfig.json
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/bin/Debug/net6.0/BMI_Calculator_CO453.dll
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/bin/Debug/net6.0/ref/BMI_Calculator_CO453.dll
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/bin/Debug/net6.0/BMI_Calculator_CO453.pdb
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.csproj.AssemblyReference.cache
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.GeneratedMSBuildEditorConfig.editorconfig
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.AssemblyInfoInputs.cache
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.AssemblyInfo.cs
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.csproj.CoreCompileInputs.cache
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.dll
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/ref/BMI_Calculator_CO453.dll
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.pdb
+/home/cimem/Documents/GitHub/BMI_Calculator_CO453/obj/Debug/net6.0/BMI_Calculator_CO453.genruntimeconfig.cache
