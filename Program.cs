@@ -15,5 +15,6 @@ class BMI {
         double bmi = weight / (height * height); // Calculate BMI
 
         Console.WriteLine("Your BMI accordingly is : " + bmi);
+        Console.WriteLine("The avove result is based on the WHO (World Health Organisation) formula ");
     }
 }
