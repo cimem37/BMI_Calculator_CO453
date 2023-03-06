@@ -15,19 +15,19 @@ class BMI {
         double bmi = weight / (height * height); // Calculate BMI
 
         Console.WriteLine("Your BMI is " + bmi);
-        Console.WriteLine("The avove result is based on the WHO (World Health Organisation) formula "); 
+        Console.WriteLine("The above result is based on the WHO (World Health Organisation) formula "); 
         if (bmi < 18.5) {
-            Console.WriteLine("Weight Status: Underweight");
+            Console.WriteLine("Status of result: Underweight");
         } else if (bmi >= 18.5 && bmi <= 24.9) {
-            Console.WriteLine("Weight Status: Normal");
+            Console.WriteLine("Status of result: Normal");
         } else if (bmi >= 25.0 && bmi <= 29.9) {
-            Console.WriteLine("Weight Status: Overweight");
+            Console.WriteLine("Status of result: Overweight");
         } else if (bmi >= 30.0 && bmi <= 34.9) {
-            Console.WriteLine("Weight Status: Obese Class I");
+            Console.WriteLine("Status of result: Obese Class I");
         } else if (bmi >= 35.0 && bmi <= 39.9) {
-            Console.WriteLine("Weight Status: Obese Class II");
+            Console.WriteLine("Status of result: Obese Class II");
         } else {
-            Console.WriteLine("Weight Status: Obese Class III");
+            Console.WriteLine("Status of result: Obese Class III");
         }
     }
 }
