@@ -6,28 +6,47 @@ class BMI {
         Console.WriteLine("BMI *Body Mass Index* Calculator By Bruno");
         Console.WriteLine("- - - - - - - - - - - - - - - - - - - - -");
 
-        Console.WriteLine("Please enter your height in centimeters:");
-        double height = Convert.ToDouble(Console.ReadLine()) / 100; // Convert height to meters
+        Console.Write("Please enter your height in centimeters: ");
+        double height;
+        if (!double.TryParse(Console.ReadLine(), out height) || height <= 0) {
+            Console.WriteLine("[ERROR] Invalid height input. Please enter a positive numerical value.");
+            return;
+        }
+        height /= 100; // Convert height to meters
 
-        Console.WriteLine("Please enter your weight in kilograms:");
-        double weight = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Please enter your weight in kilograms: ");
+        double weight;
+        if (!double.TryParse(Console.ReadLine(), out weight) || weight <= 0) {
+            Console.WriteLine("[ERROR] Invalid weight input. Please enter a positive numerical value.");
+            return;
+        }
 
         double bmi = weight / (height * height); // Calculate BMI
 
-        Console.WriteLine("Your BMI is " + bmi);
-        Console.WriteLine("The above result is based on the WHO (World Health Organisation) formula "); 
+        Console.WriteLine("Your BMI is " + bmi.ToString("0.00"));
+
+        string status = "";
         if (bmi < 18.5) {
-            Console.WriteLine("Status of result: Underweight");
-        } else if (bmi >= 18.5 && bmi <= 24.9) {
-            Console.WriteLine("Status of result: Normal");
-        } else if (bmi >= 25.0 && bmi <= 29.9) {
-            Console.WriteLine("Status of result: Overweight");
-        } else if (bmi >= 30.0 && bmi <= 34.9) {
-            Console.WriteLine("Status of result: Obese Class I");
-        } else if (bmi >= 35.0 && bmi <= 39.9) {
-            Console.WriteLine("Status of result: Obese Class II");
-        } else {
-            Console.WriteLine("Status of result: Obese Class III");
+            status = "Underweight";
         }
+        else if (bmi < 25.0) {
+            status = "Normal";
+        }
+        else if (bmi < 30.0) {
+            status = "Overweight";
+        }
+        else if (bmi < 35.0) {
+            status = "Obese Class I";
+        }
+        else if (bmi < 40.0) {
+            status = "Obese Class II";
+        }
+        else {
+            status = "Obese Class III";
+        }
+
+        Console.WriteLine("Weight status: " + status);
+        Console.Write("The result is based on the World Health Organization formula");
+        Console.Write("Thank you for using the application");
     }
 }
